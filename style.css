@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    background: hsl(228, 33%, 97%);
+    font-family: 'Rubik', sans-serif;
+    -webkit-box-sizing: border-box;
+}
+.content{
+        background-color:white;
+        border-radius: .5rem;
+        padding:2rem;
+        margin: 0 auto 1.5rem;
+        color:hsl(238, 40%, 52%);
+        width: 700px;
+        height: 170px;
+        float: right;
+        margin-right: 15%;
+    
+}
+.comment{
+    background-color:white;
+    border-radius: .5rem;
+    padding:2rem;
+    margin: 0 auto 1.5rem;
+    color:hsl(238, 40%, 52%);
+    width: 650px;
+    height: 170px;
+    float: right;
+    margin-right: 15%;
+
+}
+.content-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    background-color: white;
+}
+.content-header img{
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px ;
+    margin-right: 1rem;
+    width: 35px;
+    margin-top: -4rem;
+}
+.content-header .bar{
+    width: 40px;
+    height: 15%;
+    border-radius: .5rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+.content   .name{
+    margin-right: .5rem;
+    margin-top: -4rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+.comment .name{
+    margin-right: .5rem;
+    margin-top: -4rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+.content  .names {
+    margin-right: 14rem;
+    margin-top: -4rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+.comment .names{
+    margin-right: 14rem;
+    margin-top: -4rem;
+    font-weight: 600;
+}
+.comment .namer{
+    margin-right: 9rem;
+    margin-top: -4rem;
+    font-weight: 800;
+    font-size: 16px;
+}
+.content .namers{
+    display: flex;
+    margin-top: -4rem;
+    font-size: 16px;
+}
+.content p:last-child{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color:  hsl(211, 10%, 45%) ;
+    margin-left: 3.5rem;
+    margin-top:-5rem ;
+}
+.comment p:last-child{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: hsl(211, 10%, 45%);
+    opacity: 0.7;
+    margin-left: 3.5rem;
+    margin-top:-5rem ;
+}
+.commentary{
+    background-color:white;
+    border-radius: .5rem;
+    padding:2rem;
+    margin: 0 auto 1.5rem;
+    color:hsl(238, 40%, 52%);
+    width: 700px;
+    height: 170px;
+    float: right;
+    margin-right: 15%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    background-color: white;
+}
+.header img{
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px ;
+    margin-right: 1rem;
+    width: 50px;
+}
+.commentary  textarea{
+    width:100%;
+    border:0%;
+    background: white;
+    padding: 5px 10px;
+    height: 100px;
+
+}
+button {
+    background:hsl(238, 40%, 52%) ;
+    color:#fff;
+    cursor:pointer;
+    text-transform: uppercase;
+    width:65px;
+    height: 30px;
+    border-radius: .3rem;
+    border-color:hsl(238, 40%, 52%);
+    margin-top: -4rem;
+    margin-left: 1rem;
+}
+
